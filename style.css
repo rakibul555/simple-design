@@ -1,0 +1,71 @@
+
+
+/* section title CSS */
+.section-border {
+    width: 18px;
+    height: 4px;
+    background: #000;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px;
+    margin-top: 18px;
+}
+.section-border::before {
+    content: "";
+    position: absolute;
+    right: 150%;
+    top: 0px;
+    width: 30px;
+    height: 4px;
+    background: #6AAF08;
+}
+.section-border::after {
+    content: "";
+    position: absolute;
+    left: 150%;
+    top: 0px;
+    width: 30px;
+    height: 4px;
+    background: #6AAF08;
+}
+
+.section-title h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* section article CSS */
+
+.section-article {
+    padding-top: 114px;
+}
+
+.s-border-bottom {
+    border-bottom: 1px dashed #6AAF08;
+    padding: 6px;
+}
+
+.media-body p {
+    color: #929198;
+    margin-top: 15px;
+}
+
+img.mr-3.img-fluid {
+    height: 125px;
+    box-shadow: 5px 5px 1px #6AAF08;
+}
+
+.section-right-box img {
+    box-shadow: -11px 10px 1px #6AAF08;
+}
+
+.media-body {
+    padding-left: 16px !important;
+}
+
+.section-article-border {
+    border-bottom: 1px solid #6AAF08;
+    padding-top: 82px;
+    max-width: 95%;
+    margin: 0 auto;
+}
